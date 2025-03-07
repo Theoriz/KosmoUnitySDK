@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 9102180788540281332}
   - component: {fileID: 8925418874749325331}
   - component: {fileID: 4376696812518485810}
-  - component: {fileID: 3066038999016382000}
+  - component: {fileID: 4087755184114249806}
   m_Layer: 0
   m_Name: KosmoHDRPCamera
   m_TagString: MainCamera
@@ -243,7 +243,7 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
---- !u!114 &3066038999016382000
+--- !u!114 &4087755184114249806
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4232802757994105535}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22b0731f933ae59438a415fa4dcaa617, type: 3}
+  m_Script: {fileID: 11500000, guid: 45099d624c1e6c14e9514f4e5ea1ed9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _spoutName: Spout Sender
@@ -260,4 +260,4 @@ MonoBehaviour:
   _captureMethod: 2
   _sourceCamera: {fileID: 0}
   _sourceTexture: {fileID: 0}
-  _resources: {fileID: 0}
+  _resources: {fileID: 11400000, guid: f449ebbe2051c2e4d993eaa773a410de, type: 2}

@@ -212,6 +212,16 @@ PrefabInstance:
       propertyPath: _sourceTexture
       value: 
       objectReference: {fileID: 8400000, guid: cbf8c118bb14cca47aefc06c0790a446, type: 2}
+    - target: {fileID: 4087755184114249806, guid: 063fa2f3d04b4a146976e2482963d202,
+        type: 3}
+      propertyPath: _spoutName
+      value: KosmoFloor
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087755184114249806, guid: 063fa2f3d04b4a146976e2482963d202,
+        type: 3}
+      propertyPath: _sourceTexture
+      value: 
+      objectReference: {fileID: 8400000, guid: cbf8c118bb14cca47aefc06c0790a446, type: 2}
     - target: {fileID: 4232802757994105535, guid: 063fa2f3d04b4a146976e2482963d202,
         type: 3}
       propertyPath: m_Name
@@ -312,6 +322,16 @@ PrefabInstance:
       value: KosmoBack
       objectReference: {fileID: 0}
     - target: {fileID: 3066038999016382000, guid: 063fa2f3d04b4a146976e2482963d202,
+        type: 3}
+      propertyPath: _sourceTexture
+      value: 
+      objectReference: {fileID: 8400000, guid: 0ef8e6a63465e4b4088aa81e3c51a4ff, type: 2}
+    - target: {fileID: 4087755184114249806, guid: 063fa2f3d04b4a146976e2482963d202,
+        type: 3}
+      propertyPath: _spoutName
+      value: KosmoBack
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087755184114249806, guid: 063fa2f3d04b4a146976e2482963d202,
         type: 3}
       propertyPath: _sourceTexture
       value: 
@@ -420,6 +440,16 @@ PrefabInstance:
       propertyPath: _sourceTexture
       value: 
       objectReference: {fileID: 8400000, guid: 6692d4ef1df2eac4bbc2bf7bb2aa9068, type: 2}
+    - target: {fileID: 4087755184114249806, guid: 063fa2f3d04b4a146976e2482963d202,
+        type: 3}
+      propertyPath: _spoutName
+      value: KosmoCeiling
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087755184114249806, guid: 063fa2f3d04b4a146976e2482963d202,
+        type: 3}
+      propertyPath: _sourceTexture
+      value: 
+      objectReference: {fileID: 8400000, guid: 6692d4ef1df2eac4bbc2bf7bb2aa9068, type: 2}
     - target: {fileID: 4232802757994105535, guid: 063fa2f3d04b4a146976e2482963d202,
         type: 3}
       propertyPath: m_Name
@@ -520,6 +550,16 @@ PrefabInstance:
       value: KosmoLeft
       objectReference: {fileID: 0}
     - target: {fileID: 3066038999016382000, guid: 063fa2f3d04b4a146976e2482963d202,
+        type: 3}
+      propertyPath: _sourceTexture
+      value: 
+      objectReference: {fileID: 8400000, guid: decdf91d41ace29448219da99412b99d, type: 2}
+    - target: {fileID: 4087755184114249806, guid: 063fa2f3d04b4a146976e2482963d202,
+        type: 3}
+      propertyPath: _spoutName
+      value: KosmoLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087755184114249806, guid: 063fa2f3d04b4a146976e2482963d202,
         type: 3}
       propertyPath: _sourceTexture
       value: 
@@ -628,6 +668,16 @@ PrefabInstance:
       propertyPath: _sourceTexture
       value: 
       objectReference: {fileID: 8400000, guid: 01f7dd6446d2cc34b8d7d3651e12f99a, type: 2}
+    - target: {fileID: 4087755184114249806, guid: 063fa2f3d04b4a146976e2482963d202,
+        type: 3}
+      propertyPath: _spoutName
+      value: KosmoFront
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087755184114249806, guid: 063fa2f3d04b4a146976e2482963d202,
+        type: 3}
+      propertyPath: _sourceTexture
+      value: 
+      objectReference: {fileID: 8400000, guid: 01f7dd6446d2cc34b8d7d3651e12f99a, type: 2}
     - target: {fileID: 4232802757994105535, guid: 063fa2f3d04b4a146976e2482963d202,
         type: 3}
       propertyPath: m_Name
@@ -728,6 +778,16 @@ PrefabInstance:
       value: KosmoRight
       objectReference: {fileID: 0}
     - target: {fileID: 3066038999016382000, guid: 063fa2f3d04b4a146976e2482963d202,
+        type: 3}
+      propertyPath: _sourceTexture
+      value: 
+      objectReference: {fileID: 8400000, guid: 2baa19ed5cd2a0d40a5c58ab3c24bac1, type: 2}
+    - target: {fileID: 4087755184114249806, guid: 063fa2f3d04b4a146976e2482963d202,
+        type: 3}
+      propertyPath: _spoutName
+      value: KosmoRight
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087755184114249806, guid: 063fa2f3d04b4a146976e2482963d202,
         type: 3}
       propertyPath: _sourceTexture
       value: 
