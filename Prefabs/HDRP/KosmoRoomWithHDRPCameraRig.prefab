@@ -300,8 +300,36 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4232802757994105535, guid: 063fa2f3d04b4a146976e2482963d202,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5908485928314122065}
   m_SourcePrefab: {fileID: 100100000, guid: 063fa2f3d04b4a146976e2482963d202, type: 3}
+--- !u!1 &2437845030935825844 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4232802757994105535, guid: 063fa2f3d04b4a146976e2482963d202,
+    type: 3}
+  m_PrefabInstance: {fileID: 1975136906335864587}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5908485928314122065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2437845030935825844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45099d624c1e6c14e9514f4e5ea1ed9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spoutName: KosmoFloor
+  _keepAlpha: 0
+  _captureMethod: 2
+  _sourceCamera: {fileID: 0}
+  _sourceTexture: {fileID: 8400000, guid: cbf8c118bb14cca47aefc06c0790a446, type: 2}
+  _resources: {fileID: 11400000, guid: f449ebbe2051c2e4d993eaa773a410de, type: 2}
 --- !u!4 &7747114607926180961 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8136420395269241706, guid: 063fa2f3d04b4a146976e2482963d202,
@@ -414,8 +442,36 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4232802757994105535, guid: 063fa2f3d04b4a146976e2482963d202,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4840322324040892360}
   m_SourcePrefab: {fileID: 100100000, guid: 063fa2f3d04b4a146976e2482963d202, type: 3}
+--- !u!1 &2706823798729409184 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4232802757994105535, guid: 063fa2f3d04b4a146976e2482963d202,
+    type: 3}
+  m_PrefabInstance: {fileID: 2246590644520699935}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4840322324040892360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2706823798729409184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45099d624c1e6c14e9514f4e5ea1ed9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spoutName: KosmoBack
+  _keepAlpha: 0
+  _captureMethod: 2
+  _sourceCamera: {fileID: 0}
+  _sourceTexture: {fileID: 8400000, guid: 0ef8e6a63465e4b4088aa81e3c51a4ff, type: 2}
+  _resources: {fileID: 11400000, guid: f449ebbe2051c2e4d993eaa773a410de, type: 2}
 --- !u!4 &8054443242304533365 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8136420395269241706, guid: 063fa2f3d04b4a146976e2482963d202,
@@ -528,8 +584,36 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4232802757994105535, guid: 063fa2f3d04b4a146976e2482963d202,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8827925569822231020}
   m_SourcePrefab: {fileID: 100100000, guid: 063fa2f3d04b4a146976e2482963d202, type: 3}
+--- !u!1 &724432794764765824 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4232802757994105535, guid: 063fa2f3d04b4a146976e2482963d202,
+    type: 3}
+  m_PrefabInstance: {fileID: 3508405709204135999}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8827925569822231020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724432794764765824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45099d624c1e6c14e9514f4e5ea1ed9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spoutName: KosmoCeiling
+  _keepAlpha: 0
+  _captureMethod: 2
+  _sourceCamera: {fileID: 0}
+  _sourceTexture: {fileID: 8400000, guid: 6692d4ef1df2eac4bbc2bf7bb2aa9068, type: 2}
+  _resources: {fileID: 11400000, guid: f449ebbe2051c2e4d993eaa773a410de, type: 2}
 --- !u!4 &4637022454942047061 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8136420395269241706, guid: 063fa2f3d04b4a146976e2482963d202,
@@ -642,7 +726,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4232802757994105535, guid: 063fa2f3d04b4a146976e2482963d202,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 214683600326987843}
   m_SourcePrefab: {fileID: 100100000, guid: 063fa2f3d04b4a146976e2482963d202, type: 3}
 --- !u!4 &4362424283095603298 stripped
 Transform:
@@ -650,6 +738,30 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5503450387639149320}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8565214643734178231 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4232802757994105535, guid: 063fa2f3d04b4a146976e2482963d202,
+    type: 3}
+  m_PrefabInstance: {fileID: 5503450387639149320}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &214683600326987843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8565214643734178231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45099d624c1e6c14e9514f4e5ea1ed9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spoutName: KosmoLeft
+  _keepAlpha: 0
+  _captureMethod: 2
+  _sourceCamera: {fileID: 0}
+  _sourceTexture: {fileID: 8400000, guid: decdf91d41ace29448219da99412b99d, type: 2}
+  _resources: {fileID: 11400000, guid: f449ebbe2051c2e4d993eaa773a410de, type: 2}
 --- !u!1001 &5911702844735882737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -756,7 +868,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4232802757994105535, guid: 063fa2f3d04b4a146976e2482963d202,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5291517993206100614}
   m_SourcePrefab: {fileID: 100100000, guid: 063fa2f3d04b4a146976e2482963d202, type: 3}
 --- !u!4 &2513229970883624603 stripped
 Transform:
@@ -764,6 +880,30 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5911702844735882737}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7545633587508170574 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4232802757994105535, guid: 063fa2f3d04b4a146976e2482963d202,
+    type: 3}
+  m_PrefabInstance: {fileID: 5911702844735882737}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5291517993206100614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7545633587508170574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45099d624c1e6c14e9514f4e5ea1ed9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spoutName: KosmoFront
+  _keepAlpha: 0
+  _captureMethod: 2
+  _sourceCamera: {fileID: 0}
+  _sourceTexture: {fileID: 8400000, guid: 01f7dd6446d2cc34b8d7d3651e12f99a, type: 2}
+  _resources: {fileID: 11400000, guid: f449ebbe2051c2e4d993eaa773a410de, type: 2}
 --- !u!1001 &7357835270100876125
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -870,7 +1010,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4232802757994105535, guid: 063fa2f3d04b4a146976e2482963d202,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8729889797276834711}
   m_SourcePrefab: {fileID: 100100000, guid: 063fa2f3d04b4a146976e2482963d202, type: 3}
 --- !u!4 &1654535255517282359 stripped
 Transform:
@@ -878,3 +1022,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7357835270100876125}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6674800425368793570 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4232802757994105535, guid: 063fa2f3d04b4a146976e2482963d202,
+    type: 3}
+  m_PrefabInstance: {fileID: 7357835270100876125}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8729889797276834711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6674800425368793570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45099d624c1e6c14e9514f4e5ea1ed9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spoutName: KosmoRight
+  _keepAlpha: 0
+  _captureMethod: 2
+  _sourceCamera: {fileID: 0}
+  _sourceTexture: {fileID: 8400000, guid: 2baa19ed5cd2a0d40a5c58ab3c24bac1, type: 2}
+  _resources: {fileID: 11400000, guid: f449ebbe2051c2e4d993eaa773a410de, type: 2}
