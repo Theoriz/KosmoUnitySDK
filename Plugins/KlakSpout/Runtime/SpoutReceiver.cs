@@ -78,7 +78,6 @@ public sealed partial class SpoutReceiver : MonoBehaviour
         // Update texture type if necessary
         if(_receiver != null && _receiver.UseLinearTexture != _useLinearTexture)
             ReleaseReceiver();
-        
 
         // Receiver lazy initialization
         if (_receiver == null)
