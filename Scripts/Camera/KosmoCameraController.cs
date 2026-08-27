@@ -25,7 +25,9 @@ namespace Kosmo
 #endif
 
 #if USE_INPUT_SYSTEM
+        InputActionMap map;
         InputAction lookAction;
+        InputAction resetAction;
 #endif
 
         void OnEnable()
@@ -33,16 +35,42 @@ namespace Kosmo
             RegisterInputs();
         }
 
+        void OnDisable()
+        {
+            UnregisterInputs();
+        }
+
         void RegisterInputs()
         {
 #if USE_INPUT_SYSTEM
-            var map = new InputActionMap("Free Camera");
+            map = new InputActionMap("Free Camera");
 
             lookAction = map.AddAction("look", binding: "<Mouse>/delta");
 
             lookAction.AddBinding("<Gamepad>/rightStick").WithProcessor("scaleVector2(x=15, y=15)");
 
-            lookAction.Enable();
+            resetAction = map.AddAction("reset", binding: "<Keyboard>/" + m_ResetShortcut.ToString().ToLower());
+
+            map.Enable();
+
+            //KeyCode names only line up with Input System control names for the common keys (letters, digits, F-keys).
+            if (resetAction.controls.Count == 0)
+                Debug.LogWarning("[KosmoCameraController] " + m_ResetShortcut + " has no Input System equivalent, the reset shortcut is disabled.", this);
+#endif
+        }
+
+        void UnregisterInputs()
+        {
+#if USE_INPUT_SYSTEM
+            if (map == null)
+                return;
+
+            map.Disable();
+            map.Dispose();
+
+            map = null;
+            lookAction = null;
+            resetAction = null;
 #endif
         }
 
@@ -87,7 +115,11 @@ namespace Kosmo
                 transform.localRotation = Quaternion.Euler(newRotationX, newRotationY, transform.localEulerAngles.z);
             }
 
+#if USE_INPUT_SYSTEM
+            if (resetAction != null && resetAction.WasPressedThisFrame())
+#else
             if (Input.GetKeyDown(m_ResetShortcut))
+#endif
             {
                 transform.localRotation = Quaternion.identity;
             }

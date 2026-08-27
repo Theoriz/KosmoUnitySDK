@@ -218,7 +218,7 @@ namespace Kosmo
         void OnDrawGizmos()
         {
 #if UNITY_EDITOR
-            if (showScreen)
+            if (showScreen && null != projectionScreen)
             {
                 Vector3[] verts = new Vector3[4];
                 verts[0] = projectionScreen.transform.TransformPoint(-screenWidth / 2, screenHeight / 2, 0);
